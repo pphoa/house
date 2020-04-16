@@ -1,0 +1,9 @@
+Pascal Phoa - Lecture26 Homework
+
+- I changed Bedroom1's wall to Green using setWallColor()
+- I changed all of Upstairs' floors to Blue using setFloorColor()
+- I added a Chair to Bedroom1
+- I counted inventories of Upstairs and House
+
+Reflection:
+I created a housing simulation using composite deisgn patterns. My design allows me to create an interface, and instantiate objects all from the Component interface. I created a LeafNode and a Composite class from the interface, which act as my nodes and leaves. Through this design, I could not only have my classes stemming from one root interface, but I could also add new methods easily to the interface - this also allows me to delegate more tasks easily from my main function (Main.java). My house simulation now acts like a tree, and every section of the house is partitioned as either a Composite or a LeafNode. This allowed me to easily manage code logic when I create operations.
